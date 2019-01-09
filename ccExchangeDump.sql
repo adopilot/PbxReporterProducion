@@ -182,6 +182,7 @@ CREATE TABLE `parametriTip` (
 --
 
 LOCK TABLES `parametriTip` WRITE;
+INSERT INTO `parametriTip` VALUES (1,'ColNumber','Column'),(2,'ColOther','Column'),(3,'RowsToScip','INT'),(4,'sheetName','CHAR'),(5,'ColIdPk','Column'),(8,'GroupByColumns','Column'),(9,'FillCsvHeader','Column');
 /*!40000 ALTER TABLE `parametriTip` DISABLE KEYS */;
 /*!40000 ALTER TABLE `parametriTip` ENABLE KEYS */;
 UNLOCK TABLES;
