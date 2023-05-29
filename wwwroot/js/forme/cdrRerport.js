@@ -34,7 +34,7 @@ var sourceGridCdr =
         // update the grid and send a request to the server.
         //return false; //return false ne osvježava grid 
         if (data.length == 0) {
-            if (confirm('Pokušavate dobiti izvještaj o kompletnoj bazi podataka.\nTražite izvještaj bez postavljenih filtera.\nOva opercaija može potrajti, optertiti server i opteretiti vaš računar\nDa li želite nastaviti sa zahtjevom za kompletnu bazu podataka ')) {
+            if (confirm('Pokušavate dobiti izvještaj o kompletnoj bazi podataka.\nTražite izvještaj bez postavljenih filtera.\nOva operacija može potrajati, opteretiti server i opteretiti vaš računar\nDa li želite nastaviti? ')) {
                 $("#gridCdr").jqxGrid('updatebounddata', 'filter');
             } else {
                 $('#gridCdr').jqxGrid('clear');
